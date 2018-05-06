@@ -30,10 +30,7 @@ header, nav, footer, section, article, div {
 
 .header-inner{
     width: 100%;
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
     display: flex;
-    /*align-self: center;*/
     justify-content: space-between;
     align-items:center;
 }
@@ -51,13 +48,12 @@ header, nav, footer, section, article, div {
     font-size: 3em;
     /*margin: 0.5em 0.25em;*/
     /*align-items:flex-start;*/
-
-
 }
 
 /*NAV BAR*/
 .nav {
     width: 100%;
+
 }
 
 .nav-list {
@@ -89,7 +85,8 @@ header, nav, footer, section, article, div {
 
 .featured-projects{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items:center;
 }
 
 /*content*/
